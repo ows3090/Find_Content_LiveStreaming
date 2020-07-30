@@ -29,7 +29,6 @@ int main(int argc,char* argv[]) {
 	X_SIZE = atoi(x);
 	
 	int YUV_SIZE = Y_SIZE * X_SIZE * 3 / 2;
-	cout << Y_SIZE << ' ' << X_SIZE << ' ' << YUV_SIZE << endl;
 
 	unsigned char* start_frame = new unsigned char[YUV_SIZE];
 	FILE* startfile;
